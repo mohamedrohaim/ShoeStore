@@ -25,4 +25,12 @@
     <string name="cancel">cancel</string>
     <string name="save">save</string>
     <string name="logout">Logout</string>
+    <string name="first_shoe">first shoe</string>
+    <string name="description">Description:</string>
+    <string name="xmr">Xmr</string>
+    <string name="company">Company:</string>
+    <string name="_20">20</string>
+    <string name="size">Size:</string>
+    <string name="name">Name:</string>
+    <string name="shoe1">shoe1</string>
 </resources>

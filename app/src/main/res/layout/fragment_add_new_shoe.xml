@@ -117,11 +117,12 @@
             android:hint="@string/she_company"
             android:inputType="none"
             android:minHeight="48dp"
+            android:text="@={shoe.company}"
+            android:textColorHint="#546E7A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView7"
-            android:text="@={shoe.company}"
-            />
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/textView8"
@@ -150,11 +151,12 @@
             android:hint="@string/shoe_description"
             android:inputType="text"
             android:minHeight="48dp"
+            android:text="@={shoe.description}"
+            android:textColorHint="#546E7A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView8"
-            android:text="@={shoe.description}"
-            />
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Button
             android:id="@+id/cancelButton"
@@ -173,6 +175,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:text="@string/save"
+            android:textColor="#000000"
             app:layout_constraintBaseline_toBaselineOf="@+id/cancelButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"

@@ -1,23 +1,17 @@
 package com.udacity.shoestore
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
-import androidx.databinding.Bindable
-import androidx.databinding.BindingAdapter
 import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import com.udacity.shoestore.databinding.FragmentAddNewShoeBinding
 import com.udacity.shoestore.models.Shoe
-import kotlinx.android.synthetic.main.shoe_item.*
+
 
 
 class DetailsFragment : Fragment() {

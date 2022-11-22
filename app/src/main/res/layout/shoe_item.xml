@@ -20,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Name: "
+                android:text="@string/name"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"
                 android:textSize="@dimen/labelSize"
@@ -30,7 +30,7 @@
                 android:id="@+id/shoeName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="first shoe"
+                android:text="@string/shoe1"
                 android:textSize="@dimen/labelSize"
                 android:textStyle="bold"/>
 
@@ -46,7 +46,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Size: "
+                android:text="@string/size"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"
                 android:textSize="@dimen/labelSize"
@@ -56,7 +56,7 @@
                 android:id="@+id/shoeSize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="first shoe"
+                android:text="@string/_20"
                 android:textSize="@dimen/labelSize"
                 android:textStyle="bold"/>
 
@@ -71,7 +71,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Company: "
+                android:text="@string/company"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"
                 android:textSize="@dimen/labelSize"
@@ -81,7 +81,7 @@
                 android:id="@+id/sheCompany"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="first shoe"
+                android:text="@string/xmr"
                 android:textSize="@dimen/labelSize"
                 android:textStyle="bold"/>
 
@@ -100,7 +100,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Description: "
+                android:text="@string/description"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"
                 android:textSize="@dimen/labelSize"
@@ -109,7 +109,7 @@
                 android:id="@+id/shoeDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="first shoe"
+                android:text="@string/first_shoe"
                 android:textStyle="bold"
 
                 />

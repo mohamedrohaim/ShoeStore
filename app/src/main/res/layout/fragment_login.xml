@@ -55,47 +55,49 @@
             app:layout_constraintHorizontal_bias="0.513"
             app:layout_constraintStart_toEndOf="@+id/passLabel"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,TextContrastCheck" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginBetweenTextFields"
-            android:ems="10"
             android:autofillHints="emailAddress"
+            android:ems="10"
             android:hint="@string/emailHint"
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.672"
             app:layout_constraintStart_toEndOf="@+id/emailLabel"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
 
         <Button
             android:id="@+id/new_login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
             android:text="@string/newLogin"
+            android:textColor="#FFFFFF"
             app:layout_constraintBaseline_toBaselineOf="@+id/login_button"
             app:layout_constraintEnd_toStartOf="@+id/login_button"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            android:backgroundTint="@color/colorPrimary"/>
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/smallMargin"
+            android:backgroundTint="@color/colorPrimary"
             android:text="@string/login"
+            android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/new_login_button"
             app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword"
-            tools:ignore="DuplicateSpeakableTextCheck"
-            android:backgroundTint="@color/colorPrimary"
-            />
+            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

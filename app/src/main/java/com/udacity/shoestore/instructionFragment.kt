@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import com.udacity.shoestore.databinding.FragmentInstructionBinding
-import com.udacity.shoestore.databinding.FragmentLoginBinding
 
 
 class instructionFragment : Fragment() {
