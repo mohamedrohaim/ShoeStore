@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="smallMargin">20dp</dimen>
+    <dimen name="headerTextSize">30sp</dimen>
+    <dimen name="labelSize">20sp</dimen>
+    <dimen name="marginBetweenTextFields">40dp</dimen>
+
+    <dimen name="mid_margin">25dp</dimen>
+</resources>
